@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -73,7 +74,7 @@ public class InputActivity extends AppCompatActivity {
      * The callback that is called when the floating action button is pressed.
      */
     private void fabAction() {
-        if (inputText.getText() == null) {
+        if (inputText.getText().toString().equals("")) {
             makeToast(getResources().getString(R.string.ERROR_NO_VALUE_ENTERED),
                     Toast.LENGTH_LONG);
         } else {
