@@ -1,0 +1,45 @@
+<resources>
+    <!--Regular strings-->
+    <string name="app_name">Unit Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputField">Enter value:</string>
+    <string name="equal">is equal to</string>
+
+    <!--Error messages-->
+    <string name="ERROR_NO_VALUE_ENTERED">Please enter a value</string>
+    <string name="ERROR_NO_CONVERSION_SELECTED">Please select a conversion.</string>
+    <string name="ERROR_NO_CALCULATION_PREFORMED">Something went wrong please try again.</string>
+
+    <!--Constants-->
+    <string name="CONV">conversion</string>
+    <string name="VALUE">value</string>
+
+    <!--Units of measurement-->
+    <string-array name="hectare">
+        <item>hectare</item>
+        <item>hectares</item>
+    </string-array>
+    <string-array name="acre">
+        <item>acre</item>
+        <item>acres</item>
+    </string-array>
+    <string-array name="square_feet">
+        <item>square foot</item>
+        <item>square feet</item>
+    </string-array>
+    <string-array name="square_meter">
+        <item>square meter</item>
+        <item>square meters</item>
+    </string-array>
+
+    <!--Values for the spinner menu-->
+    <string-array name="convArray">
+        <item>Select Conversion…</item>
+        <item>Hectares to Acres</item>
+        <item>Acres to Hectares</item>
+        <item>Hectares to Square Feet</item>
+        <item>Square Feet to Hectares</item>
+        <item>Square Meters to Square Feet</item>
+        <item>Square Feet to Square Meters</item>
+    </string-array>
+</resources>

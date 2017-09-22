@@ -1,0 +1,44 @@
+<resources>
+    <!--Regular strings-->
+    <string name="app_name">単位変換器</string>
+    <string name="inputField">測定:</string>
+    <string name="equal">は</string>
+
+    <!--Error messages-->
+    <string name="ERROR_NO_VALUE_ENTERED">値を与えてください</string>
+    <string name="ERROR_NO_CONVERSION_SELECTED">選んでください</string>
+    <string name="ERROR_NO_CALCULATION_PREFORMED">何か間違っていた</string>
+
+    <!--Constants-->
+    <string name="CONV">conversion</string>
+    <string name="VALUE">value</string>
+
+    <!--Units of measurement-->
+    <string-array name="hectare">
+        <item>ヘクタール</item>
+        <item>ヘクタール</item>
+    </string-array>
+    <string-array name="acre">
+        <item>エーカー</item>
+        <item>エーカー</item>
+    </string-array>
+    <string-array name="square_feet">
+        <item>平方フィート</item>
+        <item>平方フィート</item>
+    </string-array>
+    <string-array name="square_meter">
+        <item>平方メートル</item>
+        <item>平方メートル</item>
+    </string-array>
+
+    <!--Values for the spinner menu-->
+    <string-array name="convArray">
+        <item>1つを選択してください</item>
+        <item>ヘクタールからエーカー</item>
+        <item>ヘクタールにエーカー</item>
+        <item>ヘクタールから平方フィート</item>
+        <item>ヘクタールに平方フィート</item>
+        <item>平方メートルから平方フィート</item>
+        <item>平方フィートから平方メートル</item>
+    </string-array>
+</resources>
