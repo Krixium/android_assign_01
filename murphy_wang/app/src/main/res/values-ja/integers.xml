@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="HECTARES_TO_ACRES">1</integer>
+    <integer name="ACRES_TO_HECTARES">2</integer>
+    <integer name="HECTARES_TO_SQUARE_FEET">3</integer>
+    <integer name="SQUARE_FEET_TO_HECTARES">4</integer>
+    <integer name="SQUARE_METERS_TO_SQUARE_FEET">5</integer>
+    <integer name="SQUARE_FEET_TO_SQUARE_METERS">6</integer>
+</resources>

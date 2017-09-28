@@ -1,4 +1,4 @@
-package ca.bcit.assn1.firstnamelastname1_firstnamelastname2;
+package ca.bcit.assn1.murphy_wang;
 
 import android.content.Context;
 

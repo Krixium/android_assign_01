@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="ca.bcit.assn1.murphy_wang.InputActivity"
+            android:name=".InputActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,8 +20,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ca.bcit.assn1.murphy_wang.OutputActivity"
-            android:parentActivityName="ca.bcit.assn1.murphy_wang.InputActivity" />
+            android:name=".OutputActivity"
+            android:parentActivityName=".InputActivity"/>
     </application>
 
 </manifest>

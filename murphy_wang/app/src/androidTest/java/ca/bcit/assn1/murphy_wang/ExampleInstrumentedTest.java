@@ -1,4 +1,4 @@
-package ca.bcit.assn1.firstnamelastname1_firstnamelastname2;
+package ca.bcit.assn1.murphy_wang;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ca.bcit.assn1.firstnamelastname1_firstnamelastname2", appContext.getPackageName());
+        assertEquals("ca.bcit.assn1.murphy_wang", appContext.getPackageName());
     }
 }

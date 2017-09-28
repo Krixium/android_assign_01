@@ -1,11 +1,10 @@
-package ca.bcit.assn1.firstnamelastname1_firstnamelastname2;
+package ca.bcit.assn1.murphy_wang;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
